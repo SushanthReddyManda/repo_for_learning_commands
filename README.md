@@ -18,7 +18,9 @@ Git Commands
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
+| `$ git add .` | Add all files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
+| `git commit -am "[commit message]"` | Add,  Commit changes , simultaneously |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
 ### Branching & Merging
@@ -45,7 +47,7 @@ Git Commands
 
 | Command | Description |
 | ------- | ----------- |
-| `git push origin [branch name]` | Push a branch to your remote repository |
+| `git push origin [branch name]` | Push a branch to your remote repository ( If u have not made any branch then keep "master"  as branch name) |
 | `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
 | `git push` | Push changes to remote repository (remembered branch) |
 | `git push origin --delete [branch name]` | Delete a remote branch |
