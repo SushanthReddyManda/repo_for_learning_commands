@@ -47,7 +47,7 @@ Git Commands
 
 | Command | Description |
 | ------- | ----------- |
-| `git push origin [branch name]` | Push a branch to your remote repository ( If u have not made any branch then keep "master"  as branch name) |
+| `git push origin [branch name]` | Push a branch to your remote repository (  "master"  as default name  , if not made any other branch) |
 | `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
 | `git push` | Push changes to remote repository (remembered branch) |
 | `git push origin --delete [branch name]` | Delete a remote branch |
